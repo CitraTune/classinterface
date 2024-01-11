@@ -19,14 +19,14 @@ public class Main {
         //Add tasks
         ArrayList<Task> toDoList = new ArrayList<Task>();
         toDoList.add(new Task("water my cat"));
-        toDoList.get(0).setPriority(0);
-        toDoList.get(0).setComplexity(0);
+        toDoList.get(0).setPriority(1);
+        toDoList.get(0).setComplexity(3);
         toDoList.add(new Task("cook my clothes"));
         toDoList.get(1).setPriority(1);
-        toDoList.get(1).setComplexity(1);
+        toDoList.get(1).setComplexity(2);
         toDoList.add(new Task("clean my soap"));
         toDoList.get(2).setPriority(2);
-        toDoList.get(2).setComplexity(2);
+        toDoList.get(2).setComplexity(4);
 
         //Reorder method
         Collections.sort(toDoList);
